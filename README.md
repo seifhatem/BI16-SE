@@ -15,6 +15,7 @@ This repository is the software engineering project for BI's **T16**. The master
 #### 3. Component group 3
 Rania ahmed 37-3167
 Karen Atef 37-13296
+Nadine Khoury 37-0723
 
 #### 4. Component group 4
 * @Crowmius - Hazem Nabil Mohamed Hosni 37-11819 
