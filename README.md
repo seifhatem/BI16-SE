@@ -17,4 +17,8 @@ This repository is the software engineering project for BI's **T16**. The master
 #### 4. Component group 4
 
 #### 5. Component group 5
+<<<<<<< HEAD
 Omar Walid 37-5574
+=======
+       Zeina Nosseir 37-1105
+>>>>>>> 61d39a952a84cf02e3a00ac5168b323f36e7eb04
