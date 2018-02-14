@@ -11,7 +11,7 @@ This repository is the software engineering project for BI's **T16**. The master
 #### 1. Component group 1
 
 #### 2. Component group 2
-Aly Hussein 37-1116 
+
 * @DanaAlaaEldeen - Dana Alaa Eldeen Abdelhai 37-16350
 
 #### 3. Component group 3
