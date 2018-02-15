@@ -12,6 +12,7 @@ This repository is the software engineering project for BI's **T16**. The master
 * @MMagdy97 - Mohamed Magdy Helal Mousa 37-6873
   Eman Khaled Ali 37-1508
   Yassmine Mahmoud Elsherif 37-1106
+  Maryam zain 37-2211 
 #### 2. Component group 2
 
 #### 3. Component group 3
