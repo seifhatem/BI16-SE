@@ -13,6 +13,7 @@ This repository is the software engineering project for BI's **T16**. The master
   Eman Khaled Ali 37-1508
   Yassmine Mahmoud Elsherif 37-1106
   Maryam zain 37-2211 
+* @osamaHaliem - Osama Abdelhaleem Fawzy 25-7376
 #### 2. Component group 2
 
 #### 3. Component group 3
