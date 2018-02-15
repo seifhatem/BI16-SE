@@ -18,6 +18,8 @@ This repository is the software engineering project for BI's **T16**. The master
 
 * @yousseffkhaled - Youssef Khaled 37-2598
 
+* @OmarKaddah - Omar Kaddah 37-9767
+
 #### 3. Component group 3
 
 #### 4. Component group 4
