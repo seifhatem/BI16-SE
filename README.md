@@ -22,6 +22,5 @@ Nadine Khoury 37-0723
 Ola Diaa 37-1745
 
 #### 4. Component group 4
-* @Crowmius - Hazem Nabil Mohamed Hosni 37-11819 
-Ayten Hesham Ibrahim Salem 37-0645
+
 #### 5. Component group 5
