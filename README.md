@@ -28,6 +28,13 @@ This repository is the software engineering project for BI's **T16**. The master
 * @farahabdou - Farah Ahmed Abo Bakr 34-2651
 
 #### 3. Component group 3
+Rania ahmed 37-3167
+
+Karen Atef 37-13296
+
+Nadine Khoury 37-0723
+
+Ola Diaa 37-1745
 
 #### 4. Component group 4
 * @Crowmius - Hazem Nabil Mohamed Hosni 37-11819 
@@ -46,3 +53,4 @@ Dareen mohamed 37-14473
 
 
 Yara Ayman Salah 37-1805
+
