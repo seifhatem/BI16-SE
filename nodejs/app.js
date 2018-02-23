@@ -8,6 +8,7 @@ const express = require('express'),
   routes = require('./api/routes'),
   config = require('./api/config/Config'),
   app = express();
+  var session = require('express-session');
 
 app.set('secret', config.SECRET);
 
@@ -28,7 +29,7 @@ app.use(
   })
 );
 app.use('/api', routes);
-
+app.use(session({secret:"ui2hf893hf230fn3032fp",resave:false , saveUnintialized:true}))
 // 500 internal server error handler
 app.use((err, req, res, next) => {
   if (err.statusCode === 404) return next();

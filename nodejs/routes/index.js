@@ -21,12 +21,24 @@ router.post('/login' , function(req , res){
 if(!User){
   return.res.status(404).send();
 }
+req.session.user = user;
+return.res.status(200).send();
 })
 
 
 })
 
+router.get('/dashboard' , function(req , res){
+  if(!req.session.user){
+    return res.status(401).send();
+  }
 
+return res.status(200).send("welcome to homepage");
+
+
+
+
+})
 
 Router.post('/register', function(req , res){
   var username = req.body.username;
