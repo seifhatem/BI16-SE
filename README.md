@@ -17,9 +17,9 @@ This repository is the software engineering project for BI's **T16**. The master
 1. Navigate to "C:\"
 2. Create a directory named "data"
 3. Navigate to "C:\data"
-4. Create two subdirectories: 
-    4.1 Create folder named "db"
-    4.2 Create folder named "log"
+4. Create two subdirectories:
+    1. Create folder named "db"
+    2. Create folder named "log"
 
 ##### Setting up node and vue
 1. Clone the repository to a folder of your choice
