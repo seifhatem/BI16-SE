@@ -1,5 +1,13 @@
 <template>
     <div class="row">
+<h1 style="color:green;text-align: left">Welcome to the login page!</h1>
+<hr>
+
+<details>
+<summary>Please click here before logging in!</summary>
+<p>WELCOME TO OUR BELOVED USER!</p>
+</details>
+<br>
       <div class="col-lg-4 col-md-5">
         <user-card>
         <form action="action_page.php">
