@@ -13,7 +13,9 @@
     "test": "npm run unit && npm run e2e"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^3.3.7",
+    "bootstrap-vue": "^2.0.0-rc.1",
     "chartist": "^0.10.1",
     "v-click-outside": "0.0.8",
     "vue": "^2.3.0",

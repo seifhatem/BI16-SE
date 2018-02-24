@@ -1,122 +1,39 @@
 <template>
   <div>
-
-    <!--Stats cards-->
-    <div class="row">
-      <div class="col-lg-3 col-sm-6" v-for="stats in statsCards">
-        <stats-card>
-          <div class="icon-big text-center" :class="`icon-${stats.type}`" slot="header">
-            <i :class="stats.icon"></i>
+    <!--Self-Cards-->
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3" v-for="person in persons">
+          <div class="thumbnail">
+            <b-img v-bind:src="person.image" center fluid-grow alt="image"></b-img>
+            <div class="caption">
+              <h3>{{person.name}}</h3>
+              <p>{{person.about}}</p>
+            </div>
           </div>
-          <div class="numbers" slot="content">
-            <p>{{stats.title}}</p>
-            {{stats.value}}
-          </div>
-          <div class="stats" slot="footer">
-            <i :class="stats.footerIcon"></i> {{stats.footerText}}
-          </div>
-        </stats-card>
+        </div>
       </div>
-    </div>
-
-    <!--Charts-->
-    <div class="row">
-
-      <div class="col-xs-12">
-
-      </div>
-
-      <div class="col-md-6 col-xs-12">
-
-      </div>
-
-      <div class="col-md-6 col-xs-12">
-
-      </div>
-
-    </div>
 
   </div>
 </template>
 <script>
-  import StatsCard from 'components/UIComponents/Cards/StatsCard.vue'
-  import ChartCard from 'components/UIComponents/Cards/ChartCard.vue'
   export default {
-    components: {
-      StatsCard,
-      ChartCard
-    },
     /**
-     * Chart data used to render stats, charts. Should be replaced with server data
+     * Each tutorial member's data is saved here
      */
     data () {
       return {
-        statsCards: [
+        persons: [
           {
-            type: 'success',
-            icon: 'ti-wallet',
-            title: 'Revenue',
-            value: '$1,345',
-            footerText: 'Last day',
-            footerIcon: 'ti-calendar'
+            name: 'Hazem Nabil',
+            about: '"I\'ve been appointed scrum master of the project. How hard can it be?" (famous last words)',
+            image: './static/img/people/example.jpg'
           },
           {
-            type: 'danger',
-            icon: 'ti-pulse',
-            title: 'Errors',
-            value: '23',
-            footerText: 'In the last hour',
-            footerIcon: 'ti-timer'
+            name: 'Name',
+            about: 'About Me',
+            image: './static/img/people/example.jpg'
           }
-        ],
-        usersChart: {
-          data: {
-            labels: ['9:00AM', '12:00AM', '3:00PM', '6:00PM', '9:00PM', '12:00PM', '3:00AM', '6:00AM'],
-            series: [
-              [287, 385, 490, 562, 594, 626, 698, 895, 952],
-              [67, 152, 193, 240, 387, 435, 535, 642, 744],
-              [23, 113, 67, 108, 190, 239, 307, 410, 410]
-            ]
-          },
-          options: {
-            low: 0,
-            high: 1000,
-            showArea: true,
-            height: '245px',
-            axisX: {
-              showGrid: false
-            },
-            lineSmooth: this.$Chartist.Interpolation.simple({
-              divisor: 3
-            }),
-            showLine: true,
-            showPoint: false
-          }
-        },
-        activityChart: {
-          data: {
-            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-            series: [
-              [542, 543, 520, 680, 653, 753, 326, 434, 568, 610, 756, 895],
-              [230, 293, 380, 480, 503, 553, 600, 664, 698, 710, 736, 795]
-            ]
-          },
-          options: {
-            seriesBarDistance: 10,
-            axisX: {
-              showGrid: false
-            },
-            height: '245px'
-          }
-        },
-        preferencesChart: {
-          data: {
-            labels: ['62%', '32%', '6%'],
-            series: [62, 32, 6]
-          },
-          options: {}
-        }
-
+        ]
       }
     }
   }
