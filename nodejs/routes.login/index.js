@@ -1,7 +1,7 @@
 Var express = require('express');
 Var router = express.Router();
 //requiring the database
-Var User = require('../lib/User');
+//Var User = require('../routes/User');
 
 
 /* GET Home Page */
@@ -34,33 +34,5 @@ router.get('/dashboard' , function(req , res){
   }
 
 return res.status(200).send("welcome to homepage");
-
-
-
-
-})
-
-Router.post('/register', function(req , res){
-  var username = req.body.username;
-  var password = req.body.password;
-  var firstname = req.body.firstname;
-  var lastname = req.body.lastname;
-  var email = req.body.email;
-
-
-  var newuser = new User();
-  newuser.username = username;
-  newuser.password = password;
-  newuser.firstname = firstname;
-  newuser.lastname = lastname;
-  newuser.email = email;
-
-  newuser.save(function(err , savedUser){
-    if(err){
-      console.log(err);
-      return.res.status(500).send();
-    }
-return.res.status(200).send();
-})
 
 })
