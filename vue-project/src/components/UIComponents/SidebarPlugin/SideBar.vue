@@ -13,7 +13,11 @@
             </div>
           Paper Dashboard
         </a>
+
       </div>
+
+    
+
       <slot>
 
       </slot>

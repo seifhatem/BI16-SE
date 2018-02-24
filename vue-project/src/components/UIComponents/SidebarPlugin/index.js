@@ -4,9 +4,9 @@ const SidebarStore = {
   showSidebar: false,
   sidebarLinks: [
     {
-      name: 'Dashboard',
+      name: 'Login',
       icon: 'ti-panel',
-      path: '/admin/overview'
+      path: '/admin/Login'
     },
     {
       name: 'User Profile',
@@ -18,6 +18,7 @@ const SidebarStore = {
       icon: 'ti-view-list-alt',
       path: '/admin/table-list'
     }
+
     // {
     //   name: 'Typography',
     //   icon: 'ti-text',

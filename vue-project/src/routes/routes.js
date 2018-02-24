@@ -10,12 +10,18 @@ import Icons from 'src/components/Dashboard/Views/Icons.vue'
 import Maps from 'src/components/Dashboard/Views/Maps.vue'
 import Typography from 'src/components/Dashboard/Views/Typography.vue'
 import TableList from 'src/components/Dashboard/Views/TableList.vue'
+import Login from 'src/components/Dashboard/Views/Login.vue'
 
 const routes = [
   {
     path: '/',
     component: DashboardLayout,
     redirect: '/admin/overview'
+  },
+  {
+    path: '/',
+    component: DashboardLayout,
+    redirect: '/admin/Login'
   },
   {
     path: '/admin',
@@ -26,6 +32,11 @@ const routes = [
         path: 'overview',
         name: 'overview',
         component: Overview
+      },
+      {
+        path: 'Login',
+        name: 'Login',
+        component: Login
       },
       {
         path: 'stats',
