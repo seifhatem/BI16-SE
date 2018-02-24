@@ -4,6 +4,7 @@ import NotFound from '../components/GeneralViews/NotFoundPage.vue'
 
 // Admin pages
 import Overview from 'src/components/Dashboard/Views/Overview.vue'
+import Login from 'src/components/Dashboard/Views/Login.vue'
 import UserProfile from 'src/components/Dashboard/Views/UserProfile.vue'
 import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
 import Icons from 'src/components/Dashboard/Views/Icons.vue'
@@ -51,6 +52,11 @@ const routes = [
         path: 'typography',
         name: 'typography',
         component: Typography
+      },
+      {
+        path: 'login',
+        name: 'login',
+        component: Login
       },
       {
         path: 'table-list',
