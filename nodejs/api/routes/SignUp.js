@@ -12,13 +12,13 @@ router.get ('/', function (req, res, next){
    var password = req.body.password;
    var firstname= req.body.firstname;
    var lastname= req.body.lastname;
-
+   var email = req.body.email;
    var newuser= new User ();
    newuser.username= username;
    newuser.password= password;
    newuser.firstname= firstname;
    newuser.lastname= lastname;
-
+   newuser.email = email;
    newuser.save(function(err, savedUser){
      if (err){
        console.log(err);
