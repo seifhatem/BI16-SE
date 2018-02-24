@@ -1,6 +1,10 @@
 <template>
   <div>
-
+  <h1>About Us</h1>
+  <p>Bi Sixteen team is a Gucian team that include third year students
+  faculty of Business Informatics who work hardly to make a good website like
+  e-bay website.</p>
+  <br>
     <!--Stats cards-->
     <div class="row">
       <div class="col-lg-3 col-sm-6" v-for="stats in statsCards">

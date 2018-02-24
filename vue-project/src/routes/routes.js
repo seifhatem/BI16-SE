@@ -1,7 +1,6 @@
 import DashboardLayout from '../components/Dashboard/Layout/DashboardLayout.vue'
 // GeneralViews
 import NotFound from '../components/GeneralViews/NotFoundPage.vue'
-
 // Admin pages
 import Overview from 'src/components/Dashboard/Views/Overview.vue'
 import UserProfile from 'src/components/Dashboard/Views/UserProfile.vue'
@@ -10,7 +9,8 @@ import Icons from 'src/components/Dashboard/Views/Icons.vue'
 import Maps from 'src/components/Dashboard/Views/Maps.vue'
 import Typography from 'src/components/Dashboard/Views/Typography.vue'
 import TableList from 'src/components/Dashboard/Views/TableList.vue'
-
+import Register from 'src/components/Dashboard/Views/Register.vue'
+import Login from 'src/components/Dashboard/Views/Login.vue'
 const routes = [
   {
     path: '/',
@@ -26,6 +26,16 @@ const routes = [
         path: 'overview',
         name: 'overview',
         component: Overview
+      },
+      {
+        path: 'register',
+        name: 'register',
+        component: Register
+      },
+      {
+        path: 'login',
+        name: 'login',
+        component: Login
       },
       {
         path: 'stats',
@@ -61,7 +71,6 @@ const routes = [
   },
   { path: '*', component: NotFound }
 ]
-
 /**
  * Asynchronously load view (Webpack Lazy loading compatible)
  * The specified component must be inside the Views folder
@@ -70,5 +79,4 @@ function view(name) {
    var res= require('../components/Dashboard/Views/' + name + '.vue');
    return res;
 };**/
-
 export default routes

@@ -7,15 +7,18 @@
     <!-- -->
     <div class="sidebar-wrapper" id="style-3">
       <div class="logo">
-        <a href="#" class="simple-text">
+      <router-link to="/">
             <div class="logo-img">
-                <img src="static/img/vue-logo.png" alt="">
+                <img src="static/img/logo.png" height = 65 weight = 65 >
             </div>
-          Paper Dashboard
-        </a>
+          BI Sixteen
+          </router-link>
+        <br></br>
+        <router-link to="/">Home</router-link><br>
+        <router-link to="register">Register</router-link><br>
+        <router-link to="login">Login</router-link><br>
       </div>
       <slot>
-
       </slot>
       <ul :class="navClasses">
         <!--By default vue-router adds an active class to each route link. This way the links are colored when clicked-->
