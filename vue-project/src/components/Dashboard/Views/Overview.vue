@@ -37,6 +37,11 @@
             name: 'Aly Hussein',
             about: '"I am a business informatics student with a passion for travelling "',
             image: './static/img/people/alyhussein.jpg'
+          },
+          {
+            name: 'Omar Walid',
+            about: '"I am a business informatics student who is intrested in learning new techs  "',
+            image: './static/img/people/OmarWalid.jpg'
           }
         ]
       }
