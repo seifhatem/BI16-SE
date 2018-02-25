@@ -32,6 +32,11 @@
             name: 'Nadine Khoury',
             about: 'I am a BI student, currently working on the SE project and looking forward for the output',
             image: './static/img/people/Nadine.jpg'
+          },
+          {
+            name: 'Aly Hussein',
+            about: '"I am a business informatics student with a passion for travelling "',
+            image: './static/img/people/alyhussein.jpg'
           }
         ]
       }

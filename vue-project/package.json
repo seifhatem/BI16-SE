@@ -17,6 +17,7 @@
     "bootstrap": "^3.3.7",
     "bootstrap-vue": "^2.0.0-rc.1",
     "chartist": "^0.10.1",
+    "save": "^2.3.2",
     "v-click-outside": "0.0.8",
     "vue": "^2.3.0",
     "vue-router": "^2.2.0"
