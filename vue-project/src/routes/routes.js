@@ -4,6 +4,7 @@ import NotFound from '../components/GeneralViews/NotFoundPage.vue'
 
 // Admin pages
 import Overview from 'src/components/Dashboard/Views/Overview.vue'
+import Register from 'src/components/Dashboard/Views/Register.vue'
 import UserProfile from 'src/components/Dashboard/Views/UserProfile.vue'
 import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
 import Icons from 'src/components/Dashboard/Views/Icons.vue'
@@ -56,6 +57,11 @@ const routes = [
         path: 'table-list',
         name: 'table-list',
         component: TableList
+      },
+      {
+        path: 'register',
+        name: 'register',
+        component: Register
       }
     ]
   },

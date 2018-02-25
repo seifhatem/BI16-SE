@@ -9,6 +9,11 @@ const SidebarStore = {
       path: '/admin/overview'
     },
     {
+      name: 'Register',
+      icon: 'ti-user',
+      path: '/admin/register'
+    },
+    {
       name: 'User Profile',
       icon: 'ti-user',
       path: '/admin/stats'

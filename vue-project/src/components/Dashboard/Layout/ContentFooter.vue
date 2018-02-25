@@ -8,10 +8,7 @@
           </li>
         </ul>
       </nav>
-      <div class="copyright pull-right">
-        &copy; Coded with
-        <i class="fa fa-heart heart"></i> by SE Team
-      </div>
+  
     </div>
   </footer>
 </template>
