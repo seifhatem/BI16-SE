@@ -33,14 +33,25 @@
       <div class="col-md-6 col-xs-12">
 
       </div>
-
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+        <h1> Welcome dear users </h1>
+        <h6> This is tutorial 16 from Business Informatics, we have always been passionate about coding.</h6>
+        <h6> our main aim is to benefit from software engineering course as much as possible as well as be able to construct a website on our own </h6>
+        <h6> </h6>
+      </div>
+    </div>
     </div>
 
+
   </div>
+
+
 </template>
 <script>
   import StatsCard from 'components/UIComponents/Cards/StatsCard.vue'
   import ChartCard from 'components/UIComponents/Cards/ChartCard.vue'
+
   export default {
     components: {
       StatsCard,
