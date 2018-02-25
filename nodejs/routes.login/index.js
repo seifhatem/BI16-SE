@@ -1,12 +1,12 @@
 Var express = require('express');
 Var router = express.Router();
-//requiring the database
-//Var User = require('../routes/User');
+requiring the database
+Var User = require('../routes/User');
 
 
 /* GET Home Page */
 router.get('/' , function(req , res , next) {
-  res.render('index', {title : 'Express'});
+  res.render('index', {title : 'Overview'});
 });
 
 
