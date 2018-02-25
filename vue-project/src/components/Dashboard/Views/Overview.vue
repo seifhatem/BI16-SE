@@ -63,6 +63,11 @@
             about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
             image: './static/img/people/karen.jpeg'
           }
+          {
+            name: 'Ali Shams',
+            about: '"I am a BI student who is seeking to be a millionaire "',
+            image: './static/img/people/Shams.jpg'
+          },
 
         ]
       }
