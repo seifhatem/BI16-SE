@@ -49,9 +49,10 @@
             image: './static/img/people/Nadine.jpg'
           },
           {
-            name: 'Aly Hussein',
-            about: '"I am a business informatics student with a passion for travelling "',
-            image: './static/img/people/alyhussein.jpg'
+            name: 'Karen Basta',
+            about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
+            image: './static/img/people/karen.jpeg'
+
           },
           {
             name: 'Omar Walid',
@@ -64,24 +65,15 @@
             image: './static/img/people/YoussefKhaled.jpg'
           },
           {
-            name: 'Karen Basta',
-            about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
-            image: './static/img/people/karen.jpeg'
-<<<<<<< HEAD
-          },
-=======
-          }
-<<<<<<< HEAD
-=======
-          ,
->>>>>>> d61fbd6859837a96564644869b7b1a29900a2b80
-          {
             name: 'Ali Shams',
             about: '"I am a BI student who is seeking to be a millionaire "',
             image: './static/img/people/Shams.jpg'
+          },
+          {
+            name: 'Aly Hussein',
+            about: '"I am a business informatics student with a passion for travelling "',
+            image: './static/img/people/alyhussein.jpg'
           }
-
->>>>>>> f8bff71422a2d07e8712dec5b11695c4900dda99
         ]
       }
     }
