@@ -29,9 +29,9 @@
             image: './static/img/people/example.jpg'
           },
           {
-            name: 'Name',
-            about: 'About Me',
-            image: './static/img/people/example.jpg'
+            name: 'Aly Hussein',
+            about: '"I am a business informatics student with a passion for travelling "',
+            image: './static/img/people/alyhussein.jpg'
           }
         ]
       }
