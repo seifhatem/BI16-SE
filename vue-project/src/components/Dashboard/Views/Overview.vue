@@ -1,3 +1,4 @@
+<<<<<<< current
 <template>
   <div>
   <h1>About Us</h1>
@@ -64,9 +65,6 @@
             about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
             image: './static/img/people/karen.jpeg'
 =======
-            name: 'Youssef Ramoud',
-            about: '"I am a Business Informatics student who is passionate about learning web design and loves food"',
-            image: './static/img/people/YoussefRamoud.jpg'
 >>>>>>> 2a6c934a8ee31907718eba48be8710e6e1d37525
           }
         ]
@@ -78,3 +76,4 @@
 <style>
 
 </style>
+=======
