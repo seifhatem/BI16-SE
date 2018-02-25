@@ -60,12 +60,9 @@
             image: './static/img/people/OmarWalid.jpg'
           },
           {
-<<<<<<< HEAD
             name: 'Karen Basta',
             about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
             image: './static/img/people/karen.jpeg'
-=======
->>>>>>> 2a6c934a8ee31907718eba48be8710e6e1d37525
           }
         ]
       }
