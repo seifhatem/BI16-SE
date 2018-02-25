@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3" v-for="person in persons">
           <div class="thumbnail">
-            <b-img v-bind:src="person.image" center fluid-grow alt="image"></b-img>
+            <b-img v-bind:src="person.image" center fluid-grow alt="image" height=500 width=500></b-img>
             <div class="caption">
               <h3>{{person.name}}</h3>
               <p>{{person.about}}</p>
@@ -29,9 +29,9 @@
             image: './static/img/people/example.jpg'
           },
           {
-            name: 'Name',
-            about: 'About Me',
-            image: './static/img/people/example.jpg'
+            name: 'Nadine Khoury',
+            about: 'I am a BI student, currently working on the SE project and looking forward for the output',
+            image: './static/img/people/Nadine.jpg'
           }
         ]
       }
