@@ -41,12 +41,17 @@
           {
             name: 'Mohamed Magdy',
             about: 'A third year BI student who seeks for finishing the project.',
-            image: './static/img/mousa.jpg'
+            image: './static/img/people/mousa.jpg'
           },
           {
             name: 'Nadine Khoury',
             about: 'I am a BI student, currently working on the SE project and looking forward for the output',
             image: './static/img/people/Nadine.jpg'
+          },
+          {
+            name: 'Youssef Ramoud',
+            about: '"I am a Business Informatics student who is passionate about learning web design and loves food"',
+            image: './static/img/people/YoussefRamoud.jpg'
           },
           {
             name: 'Karen Basta',
@@ -80,6 +85,3 @@
   }
 
 </script>
-<style>
-
-</style>
