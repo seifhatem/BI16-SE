@@ -59,16 +59,15 @@
             image: './static/img/people/OmarWalid.jpg'
           },
           {
+            name: 'Youssef Khaled',
+            about: 'I am a business informatics students in semester 6, and I am highly motivated to enhance my skills. ',
+            image: './static/img/people/YoussefKhaled.jpg'
+          },
+          {
             name: 'Karen Basta',
             about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
             image: './static/img/people/karen.jpeg'
           }
-          {
-            name: 'Ali Shams',
-            about: '"I am a BI student who is seeking to be a millionaire "',
-            image: './static/img/people/Shams.jpg'
-          },
-
         ]
       }
     }
@@ -76,4 +75,5 @@
 
 </script>
 <style>
+
 </style>
