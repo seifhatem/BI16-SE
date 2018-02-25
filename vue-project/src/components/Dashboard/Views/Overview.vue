@@ -57,6 +57,11 @@
             name: 'Omar Walid',
             about: '"I am a business informatics student who is intrested in learning new techs  "',
             image: './static/img/people/OmarWalid.jpg'
+          },
+          {
+            name: 'Youssef Ramoud',
+            about: '"I am a Business Informatics student who is passionate about learning web design and loves food"',
+            image: './static/img/people/YoussefRamoud.jpg'
           }
         ]
       }
