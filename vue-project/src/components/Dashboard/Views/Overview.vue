@@ -57,6 +57,11 @@
             name: 'Omar Walid',
             about: '"I am a business informatics student who is intrested in learning new techs  "',
             image: './static/img/people/OmarWalid.jpg'
+          },
+          {
+            name: 'Karen Basta',
+            about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
+            image: './static/img/people/karen.jpeg'
           }
         ]
       }
