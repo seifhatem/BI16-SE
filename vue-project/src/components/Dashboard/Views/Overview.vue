@@ -64,6 +64,7 @@
             about: 'Just a regular BI student who is so tired managing between Management and MET Faculties!',
             image: './static/img/people/karen.jpeg'
           }
+
         ]
       }
     }
@@ -73,4 +74,3 @@
 <style>
 
 </style>
-=======
