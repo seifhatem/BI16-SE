@@ -65,10 +65,18 @@
             image: './static/img/people/OmarWalid.jpg'
           },
           {
+            name: 'Ayten Hesham',
+            about: '"I am a BI student in my third year, i play the piano and i love cats"',
+            image: './static/img/people/AytenHesham.jpg'
+          },
+          {
             name: 'Youssef Khaled',
             about: 'I am a business informatics students in semester 6, and I am highly motivated to enhance my skills. ',
             image: './static/img/people/YoussefKhaled.jpg'
           },
+
+
+
           {
             name: 'Ali Shams',
             about: '"I am a BI student who is seeking to be a millionaire "',
@@ -109,6 +117,14 @@
             about: '"I am a business informatics student "',
             image: './static/img/people/dareen.jpeg'
           }
+          {
+            name: 'Yara Ayman',
+            about: '"I am a business informatics student and a rugby player "',
+            image: './static/img/people/Yara.jpg'
+          }
+
+
+
         ]
       }
     }
