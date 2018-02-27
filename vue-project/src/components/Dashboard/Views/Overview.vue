@@ -64,10 +64,19 @@
             about: '"I am a business informatics student who is intrested in learning new techs  "',
             image: './static/img/people/OmarWalid.jpg'
           },
+          {
+            name: 'Ayten Hesham',
+            about: '"I am a BI student in my third year, i play the piano and i love cats"',
+            image: './static/img/people/AytenHesham.jpg'
+          },
+          {
             name: 'Youssef Khaled',
             about: 'I am a business informatics students in semester 6, and I am highly motivated to enhance my skills. ',
             image: './static/img/people/YoussefKhaled.jpg'
           },
+
+
+
           {
             name: 'Ali Shams',
             about: '"I am a BI student who is seeking to be a millionaire "',
@@ -83,6 +92,44 @@
             about: '"I am a business informatics student in the GUC who wants to work in Valeo "',
             image: './static/img/people/ola.jpg'
           }
+            name: 'Rania Ahmed',
+            about: '"I am a BI student who loves coding and travelling "',
+            image: './static/img/people/rania.jpg'
+          },
+          {
+            name: 'maryam zain ',
+            about: '"I am a BI student who loves life  "',
+            image: './static/img/people/maryam.jpg'
+          },
+          {
+            name: 'Dana Alaa',
+            about: '"I am a BI student who loves food"',
+            image: './static/img/people/DSCN2440.jpg'
+          },
+          {
+            name: 'Zeina Nosseir',
+            about: '" I am  BI student who loves sports"',
+            image: './static/img/people/ZeinaNosseir.jpg'
+          },
+          {
+            name: 'Yasmine mahmoud',
+            about: '"I am a business informatics student with an addiction to korean culture  "',
+            image: './static/img/people/YasmineMahmoud.jpg'
+          },
+          {
+            name: 'Dareen Mohamed',
+            about: '"I am a business informatics student "',
+            image: './static/img/people/dareen.jpeg'
+          },
+          {
+            name: 'Yara Ayman',
+            about: '"I am a business informatics student and a rugby player "',
+            image: './static/img/people/Yara.jpg'
+>>>>>>> 207d7ed97b55a32cb399ea21ea1dc57a6c3e5f40
+          }
+
+
+
         ]
       }
     }
