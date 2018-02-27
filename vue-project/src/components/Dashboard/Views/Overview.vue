@@ -78,6 +78,11 @@
             name: 'Aly Hussein',
             about: '"I am a business informatics student with a passion for travelling "',
             image: './static/img/people/alyhussein.jpg'
+          },
+          {
+            name: 'Rania Ahmed',
+            about: '"I am a BI student who loves coding and travelling "',
+            image: './static/img/people/rania.jpg'
           }
         ]
       }
