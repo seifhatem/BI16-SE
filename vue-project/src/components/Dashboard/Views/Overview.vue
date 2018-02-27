@@ -104,7 +104,7 @@
             name: 'Zeina Nosseir',
             about: '" I am  BI student who loves sports"',
             image: './static/img/people/ZeinaNosseir.jpg'
-          }
+          },
           {
             name: 'Yasmine mahmoud',
             about: '"I am a business informatics student with an addiction to korean culture  "',
