@@ -88,6 +88,11 @@
             name: 'maryam zain ',
             about: '"I am a BI student who loves life  "',
             image: './static/img/people/maryam.jpg'
+          },
+          {
+            name: 'Zeina Nosseir',
+            about: '" I am  BI student who loves sports"',
+            image: './static/img/people/ZeinaNosseir.jpg'
           }
         ]
       }
