@@ -116,7 +116,7 @@
             name: 'Dareen Mohamed',
             about: '"I am a business informatics student "',
             image: './static/img/people/dareen.jpeg'
-          }
+          },
           {
             name: 'Yara Ayman',
             about: '"I am a business informatics student and a rugby player "',
