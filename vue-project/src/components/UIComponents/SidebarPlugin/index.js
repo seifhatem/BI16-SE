@@ -14,9 +14,9 @@ const SidebarStore = {
       path: '/admin/stats'
     },
     {
-      name: 'Table List',
+      name: 'store',
       icon: 'ti-view-list-alt',
-      path: '/admin/table-list'
+      path: '/admin/stable'
     }
     // {
     //   name: 'Typography',

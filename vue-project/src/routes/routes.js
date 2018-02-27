@@ -1,26 +1,27 @@
-import DashboardLayout from '../components/Dashboard/Layout/DashboardLayout.vue'
+import storeLayout from '../components/store/Layout/storeLayout.vue'
 // GeneralViews
 import NotFound from '../components/GeneralViews/NotFoundPage.vue'
 
 // Admin pages
-import Overview from 'src/components/Dashboard/Views/Overview.vue'
-import UserProfile from 'src/components/Dashboard/Views/UserProfile.vue'
-import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
-import Icons from 'src/components/Dashboard/Views/Icons.vue'
-import Maps from 'src/components/Dashboard/Views/Maps.vue'
-import Typography from 'src/components/Dashboard/Views/Typography.vue'
-import TableList from 'src/components/Dashboard/Views/TableList.vue'
+
+import UserProfile from 'src/components/store/Views/UserProfile.vue'
+import Notifications from 'src/components/store/Views/Notifications.vue'
+import Icons from 'src/components/store/Views/Icons.vue'
+import Maps from 'src/components/store/Views/Maps.vue'
+import Typography from 'src/components/store/Views/Typography.vue'
+import stable from 'src/components/store/Views/stable.vue'
+import Overview from 'src/components/store/Views/overview.vue'
 
 const routes = [
   {
     path: '/',
-    component: DashboardLayout,
+    component: storeLayout,
     redirect: '/admin/overview'
   },
   {
     path: '/admin',
-    component: DashboardLayout,
-    redirect: '/admin/stats',
+    component: storeLayout,
+    redirect: '/admin/stable',
     children: [
       {
         path: 'overview',
@@ -53,9 +54,9 @@ const routes = [
         component: Typography
       },
       {
-        path: 'table-list',
-        name: 'table-list',
-        component: TableList
+        path: 'stable',
+        name: 'stable',
+        component: stable
       }
     ]
   },
