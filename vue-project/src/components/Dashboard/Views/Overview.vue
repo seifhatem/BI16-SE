@@ -64,7 +64,6 @@
             about: '"I am a business informatics student who is intrested in learning new techs  "',
             image: './static/img/people/OmarWalid.jpg'
           },
-          {
             name: 'Youssef Khaled',
             about: 'I am a business informatics students in semester 6, and I am highly motivated to enhance my skills. ',
             image: './static/img/people/YoussefKhaled.jpg'
