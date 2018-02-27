@@ -84,6 +84,26 @@
             name: 'Aly Hussein',
             about: '"I am a business informatics student with a passion for travelling "',
             image: './static/img/people/alyhussein.jpg'
+          },
+          {
+            name: 'Rania Ahmed',
+            about: '"I am a BI student who loves coding and travelling "',
+            image: './static/img/people/rania.jpg'
+          },
+          {
+            name: 'maryam zain ',
+            about: '"I am a BI student who loves life  "',
+            image: './static/img/people/maryam.jpg'
+          },
+          {
+          name: 'Dana Alaa',
+          about: '"I am a BI student who loves food"',
+          image: './static/img/people/DSCN2440.jpg'
+          },
+          {
+            name: 'Zeina Nosseir',
+            about: '" I am  BI student who loves sports"',
+            image: './static/img/people/ZeinaNosseir.jpg'
           }
         ]
       }
