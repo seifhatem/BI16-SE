@@ -123,7 +123,13 @@
             name: 'Yara Ayman',
             about: '"I am a business informatics student and a rugby player "',
             image: './static/img/people/Yara.jpg'
+          },
+          {
+            name: 'Eman Khaled ',
+            about: '"I am a business informatics student and a basketball player "',
+            image: './static/img/people/Eman.jpg'
           }
+
         ]
       }
     }
