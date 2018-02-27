@@ -88,7 +88,12 @@
             name: 'maryam zain ',
             about: '"I am a BI student who loves life  "',
             image: './static/img/people/maryam.jpg'
-          }
+          },
+          {
+          name: 'Dana Alaa',
+          about: '"I am a BI student who loves food"',
+          image: './static/img/people/DSCN2440.jpg'
+          },
         ]
       }
     }
