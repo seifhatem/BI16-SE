@@ -83,6 +83,11 @@
             name: 'Rania Ahmed',
             about: '"I am a BI student who loves coding and travelling "',
             image: './static/img/people/rania.jpg'
+          },
+          {
+            name: 'maryam zain ',
+            about: '"I am a BI student who loves life  "',
+            image: './static/img/people/maryam.jpg'
           }
         ]
       }
