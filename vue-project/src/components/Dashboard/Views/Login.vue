@@ -26,7 +26,29 @@
           <div class="container" style="background-color:#f1f1f1">
 
           </div>
-        </form>        </user-card>
+        </form>
       </div>
     </div>
 </template>
+<script>
+import axios from 'axios';
+
+export default {
+  data() {
+    return {
+      loginBody: 'username = this.username', 'password = this.password' ,
+
+      errors: []
+    }
+  },
+
+  // Pushes posts to the server when called.
+  login.Post() {
+    axios.post(http://localhost:8080/#/admin/login`, {
+      body: this.LoginBody
+    })
+    .then(response => {})
+    .catch(e => {
+      this.errors.push(e)
+    })
+    <script/>
