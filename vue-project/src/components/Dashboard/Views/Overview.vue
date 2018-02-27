@@ -75,6 +75,8 @@
             image: './static/img/people/YoussefKhaled.jpg'
           },
 
+
+
           {
             name: 'Ali Shams',
             about: '"I am a BI student who is seeking to be a millionaire "',
@@ -110,6 +112,14 @@
             about: '"I am a business informatics student with an addiction to korean culture  "',
             image: './static/img/people/YasmineMahmoud.jpg'
           }
+          {
+            name: 'Yara Ayman',
+            about: '"I am a business informatics student and a rugby player "',
+            image: './static/img/people/Yara.jpg'
+          }
+
+
+
         ]
       }
     }
