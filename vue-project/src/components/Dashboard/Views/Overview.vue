@@ -89,6 +89,11 @@
             about: '"I am a BI student who loves life  "',
             image: './static/img/people/maryam.jpg'
           }
+          {
+            name: 'Yasmine mahmoud',
+            about: '"I am a business informatics student with an addiction to korean culture  "',
+            image: './static/img/people/YasmineMahmoud.jpg'
+          }
         ]
       }
     }
