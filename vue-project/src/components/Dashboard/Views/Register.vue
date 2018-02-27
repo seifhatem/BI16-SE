@@ -26,7 +26,9 @@
    <input type="text" v-model="email" placeholder="Enter Email" required>
 <br></br>
 <br></br>
-  <button type="button" v-model="btn1" class="submitbtn" color: >submit</button>&nbsp; <button type="button" vmodel="btn2" class="cancelbtn">Cancel</button>
+
+  <button type="button" v-model="btn1" class="submitbtn" color: >submit</button>&nbsp;
+  <button type="button" vmodel="btn2" class="cancelbtn">Cancel</button>
   <br></br>
 
      </div>
