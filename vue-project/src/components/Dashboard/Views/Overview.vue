@@ -78,6 +78,11 @@
             name: 'Aly Hussein',
             about: '"I am a business informatics student with a passion for travelling "',
             image: './static/img/people/alyhussein.jpg'
+          },
+          {
+            name: 'Ola Diaa',
+            about: '"I am a business informatics student in the GUC who wants to work in Valeo "',
+            image: './static/img/people/ola.jpg'
           }
         ]
       }
