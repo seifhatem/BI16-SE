@@ -85,6 +85,11 @@
             image: './static/img/people/alyhussein.jpg'
           },
           {
+            name: 'Ola Diaa',
+            about: '"I am a business informatics student in the GUC who wants to work in Valeo "',
+            image: './static/img/people/ola.jpg'
+          },
+          {
             name: 'Rania Ahmed',
             about: '"I am a BI student who loves coding and travelling "',
             image: './static/img/people/rania.jpg'
@@ -118,7 +123,21 @@
             name: 'Yara Ayman',
             about: '"I am a business informatics student and a rugby player "',
             image: './static/img/people/Yara.jpg'
+          },
+          {
+            name: 'Eman Khaled ',
+            about: '"I am a business informatics student and a basketball player "',
+            image: './static/img/people/Eman.jpg'
+          },
+          {
+          name: 'Omar Kaddah',
+          about: '"I am a business informatics student "',
+          image: './static/img/people/Omar.jpg'
           }
+<<<<<<< HEAD
+=======
+
+>>>>>>> efc5fc2f20aaf7df1920c316833ac5d6f843b89c
         ]
       }
     }
