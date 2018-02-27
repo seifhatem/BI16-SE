@@ -90,19 +90,24 @@
             image: './static/img/people/maryam.jpg'
           },
           {
-          name: 'Dana Alaa',
-          about: '"I am a BI student who loves food"',
-          image: './static/img/people/DSCN2440.jpg'
+            name: 'Dana Alaa',
+            about: '"I am a BI student who loves food"',
+            image: './static/img/people/DSCN2440.jpg'
           },
           {
             name: 'Zeina Nosseir',
             about: '" I am  BI student who loves sports"',
             image: './static/img/people/ZeinaNosseir.jpg'
-          }
+          },
           {
             name: 'Yasmine mahmoud',
             about: '"I am a business informatics student with an addiction to korean culture  "',
             image: './static/img/people/YasmineMahmoud.jpg'
+          },
+          {
+            name: 'Dareen Mohamed',
+            about: '"I am a business informatics student "',
+            image: './static/img/people/dareen.jpeg'
           }
         ]
       }
